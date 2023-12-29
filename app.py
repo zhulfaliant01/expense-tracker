@@ -136,7 +136,7 @@ def categories():
         return json
 
 
-@app.route("/api/container", methods=["GET", "POST", "DELETE"])
+@app.route("/api/container", methods=["GET", "POST"])
 def container():
     if request.method == "POST":
         data = request.get_json()
