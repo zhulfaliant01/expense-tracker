@@ -46,6 +46,7 @@ SELECT array_to_json(array_agg(row_to_json(containers)))
 FROM (SELECT * FROM container) containers
 WHERE container_id = (%s)
 """
+
 CREATE_TRANSACTION_TABLE = """
 CREATE TABLE IF NOT EXISTS transaction (
 transaction_id SERIAL PRIMARY KEY,

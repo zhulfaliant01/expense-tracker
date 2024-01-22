@@ -1,6 +1,6 @@
-# Expense Tracker Application Using Flask and PostgreSQL
+# Expense Tracker Application Using Flask, Streamlit, and PostgreSQL
 
-An Expense Tracker application is a tool designed to help individuals or businesses monitor and manage their financial transactions. Building such an application using Flask and PostgreSQL provides a great opportunity to gain experience in full-stack development, database management, and financial data handling.
+An Expense Tracker application is a powerful tool designed to help individuals or businesses monitor and manage their financial transactions. Building such an application using Flask and PostgreSQL for the backend, and Streamlit for the frontend, provides a comprehensive learning experience in full-stack development, database management, and data visualization.
 
 ## Project Overview
 
@@ -64,8 +64,10 @@ The Expense Tracker application will allow users to record, categorize, and anal
 - Implement authentication using Flask-Login or similar extensions.
 
 ### Frontend Development
-- HTML, CSS, and JavaScript for building the user interface.
-- Use libraries like Chart.js for data visualization.
+- Streamlit for building the user interface.
+- Utilize Streamlit's simplicity for rapid development and easy deployment.
+- HTML, CSS, and JavaScript for additional customization and styling.
+- Use libraries like Chart.js for data visualization within Streamlit.
 
 ### Security
 - Implement robust security measures, especially for handling financial data.
@@ -77,15 +79,15 @@ The Expense Tracker application will allow users to record, categorize, and anal
 ## Development Workflow
 1. Planning: Define the application's scope, features, and user interface design.
 2. Database Modeling: Design the database schema focusing on transaction data and user information.
-3. Building Core Features: Start with user authentication and basic transaction management.
-4. Iterative Development: Gradually add more features, testing each thoroughly.
-5. User Feedback and Iteration: Test the application with real users and iterate based on feedback.
-6. Deployment: Deploy the application on a suitable platform.
+3. Backend Development: Implement Flask for the RESTful API, utilizing Flask-SQLAlchemy for database interactions.
+4. Frontend Development: Utilize Streamlit for creating a user-friendly interface.
+5. Integration: Connect the frontend and backend, ensuring seamless data flow.
+6. Testing: Conduct thorough testing to identify and fix any issues.
+7. User Feedback and Iteration: Test the application with real users and iterate based on feedback.
+8. Deployment: Deploy the application on a suitable platform.
 
 ## Learning Outcomes
-- Practical experience with Flask and PostgreSQL for full-stack web development.
+- Practical experience with Flask and Streamlit for full-stack web development.
 - Understanding of financial data handling and privacy concerns.
-- Skills in building user-friendly interfaces and data visualization.
+- Skills in building user-friendly interfaces using Streamlit and enhancing with HTML, CSS, and JavaScript.
 - Knowledge of authentication, database design, and application security practices.
-
-An Expense Tracker application is not only a valuable tool for end-users but also a rich learning project for a developer, encompassing a wide range of skills from backend logic to frontend presentation and user experience design.
